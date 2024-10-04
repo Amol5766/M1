@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import '../menu.css'; // Updated to link to menu.css
+import '../Menu.css'; // Updated to link to menu.css
 import { FiX } from "react-icons/fi"; // Importing close icons
 import { BiSolidFoodMenu } from "react-icons/bi";
 import { FaPepperHot, FaLeaf, FaDrumstickBite, FaEgg } from 'react-icons/fa'; // Importing required icons
