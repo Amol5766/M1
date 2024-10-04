@@ -293,7 +293,7 @@ html.dark, body.dark {
     margin-bottom: 5%;
     width: 110%;
     margin-left: -5%;
-    height: auto; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
     overflow: hidden;
     border-end-end-radius: 20%;
     border-end-start-radius: 20%;
