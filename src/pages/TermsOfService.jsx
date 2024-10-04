@@ -5,14 +5,14 @@ function TermsOfService() {
     <div>
       {/* Terms of Service Section */}
       <div>
-        <h1>Terms of Service</h1>
-        <p>Here you can add your terms of service content.</p>
+        <h1>Terms of Services</h1>
+        <p>Here i'll add my terms of sevices later once i come up with something.</p>
       </div>
 
       {/* Privacy Policy Section */}
       <div>
         <h1>Privacy Policy</h1>
-        <p>Here you can add your privacy policy content.</p>
+        <p>>Here i'll add my Privacy Policy later once i come up with something.</p>
       </div>
     </div>
   );
