@@ -221,7 +221,7 @@ html.dark, body.dark {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     font: bolder;
     font-size: 130%;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
     z-index: 1000;
     padding: 10px;
     animation: slideIn 0.5s ease; /* Slide-in animation for dropdown */
@@ -293,7 +293,7 @@ html.dark, body.dark {
     margin-bottom: 5%;
     width: 110%;
     margin-left: -5%;
-    height: 450px; /* Adjust as needed */
+    height: 450PX; /* Adjust as needed */
     overflow: hidden;
     border-end-end-radius: 20%;
     border-end-start-radius: 20%;
@@ -311,7 +311,7 @@ html.dark, body.dark {
     left: 140px; /* Adjust position */
     color: white; /* Adjust text color */
     font-size: 2rem; /* Adjust font size */
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
 }
 
@@ -359,7 +359,7 @@ html.dark, body.dark {
 
   .categories-header {
     text-align: center;
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 30px 0;
     position: relative;
     animation: pulseGlow 2s infinite;
