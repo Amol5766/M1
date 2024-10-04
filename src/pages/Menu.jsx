@@ -124,12 +124,12 @@ const Menu = () => {
     <div className="menu-page">
       {/* Hero Video */}
       <div className="hero-video-container">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted controls={false}>
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <h1 className="hero-title">Our Menu</h1>
-      </div>
+      </div>  
 
       {/* Categories Header */}
       <div className="categories-header">
