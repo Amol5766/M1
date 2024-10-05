@@ -1,9 +1,9 @@
 <h2 align="center">
 <p align="center" style="font-size: 1.2em;"><br/>
-  <a href="https://eye-hospital-psi.vercel.app/" target="_blank">Amol.tech</a>
+  <a href="https://freshandmore-two.vercel.app/" target="_blank">Fresh & More</a>
 </h2>
 <div align="center">
-  <img alt="Real" src="public/eye hospital.png" />
+  <img alt="Demo" src="" />
 </div>
 
 
