@@ -63,7 +63,7 @@ The **Fresh & More** website is a comprehensive, responsive café landing page t
 git clone https://github.com/Amol5766/M1.git
 
 # Navigate to the project directory
-cd Freshandmore
+cd M1
 
 # Install dependencies
 npm install
