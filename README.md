@@ -3,7 +3,7 @@
   <a href="https://freshandmore-two.vercel.app/" target="_blank">Fresh & More</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="" />
+  <img alt="Demo" src="public/image1.png" />
 </div>
 
 
