@@ -112,7 +112,7 @@ npm run dev
 
 <h2>🙌 Contribute</h2>
 <p style="font-size: 1.1em;">
-  I welcome contributions to enhance the ##Fresh & More## project! If you’d like to report a bug, suggest improvements, or contribute code, I’d love to hear from you.
+  I welcome contributions to enhance the <strong> Fresh & More </strong> project! If you’d like to report a bug, suggest improvements, or contribute code, I’d love to hear from you.
 </p>
 
 <p align="center" style="font-size: 1.2em;">Made with ❤️ by <strong>Amol</strong> @ <strong>Fresh & More</strong>.</p>
