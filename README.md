@@ -35,36 +35,35 @@
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Amol5766](https://github.com/Amol5766/Eye-hospital). Thanks!
 
-<h2>🏥 About</h2>
-<p style="font-size: 1.1em;">
-  The <strong>Nanjappa Eye Hospital</strong> website is an <strong>informational platform</strong> designed to help patients and visitors learn about various <strong>eye treatments</strong>, <strong>diseases</strong>, and <strong>specialized services</strong>. Our goal is to make it easy for you to <strong>book appointments</strong> and find the best care for your eyes.
-</p>
+## 📝 Project Overview
+
+The **Fresh & More** website is a comprehensive, responsive café landing page that showcases a dynamic and interactive menu, with sections for **Home**, **About**, **Menu**, and **Contact**. Built using **React**, **Vite**, and **CSS**, it provides a seamless experience on both mobile and desktop devices.
 
 <h2>🌟 Features</h2>
 <p align="left" style="font-size: 1.1em;">
   
-  ▶ 🗓 Online Appointment Booking: Effortlessly book appointments with your preferred doctor.</br>
+  ▶ 📋 **Interactive Digital Menu**: View hidden animations and hover effects as you browse our selections.</br>
   
-  ▶ 👨‍⚕️ Detailed Sections: Explore extensive content on eye treatments, diseases, and specialized services offered.</br>
+  ▶ 📱 **Responsive Design**: Optimized for both mobile and desktop to offer a seamless experience.</br>
   
-  ▶ 📱 Responsive Design: Optimized for both mobile and desktop to offer a seamless user experience.</br>
+  ▶ 🖼️ **Beautiful Animations**: Includes subtle, hidden animations on the menu page for engaging user interaction.</br>
   
-  ▶ 🎡 Interactive Carousels: Dive into visually rich carousels showcasing our specialists and treatments.
+  ▶ 👨‍💻 **Multiple Sections**: Features a landing page, About, Contact, and an interactive menu.</br>
   
 </p>
 
 <h2>⚙️ Installation Instructions</h2>
 <p style="font-size: 1.1em;">
   
-  To run the Nanjappa Eye Hospital project locally, follow these steps:
+  To run the **Fresh & More** project locally, follow these steps:
   
 </p>
 <pre style="background: #f9f9f9; border-radius: 5px; padding: 10px;">
 # Clone the repository
-git clone https://github.com/Amol5766/nanjappa-eye-hospital.git
+git clone https://github.com/Amol5766/M1.git
 
 # Navigate to the project directory
-cd nanjappa-eye-hospital
+cd Freshandmore
 
 # Install dependencies
 npm install
@@ -79,36 +78,33 @@ npm run dev
 <h2>🚀 Usage</h2>
 <p style="font-size: 1.1em;">
   
-  The Nanjappa Eye Hospital website offers an intuitive interface, allowing users to:
+  The **Fresh & More** website provides an intuitive digital experience, allowing users to:
   
 </p>
 <p align="left" style="font-size: 1.1em;">
   
-  📅 Make an Appointment: Easily book an appointment online.</br>
+  ▶ 🛠️ **Explore Menu**: View detailed, animated descriptions of available dishes and drinks.</br>
   
-  👁 Check Services: Browse detailed descriptions of available services and treatments.
+  ▶ 📞 **Contact Us**: Easy-to-navigate contact page for inquiries.</br>
   
-</p>
-<p style="font-size: 1.1em;">
-  Navigate smoothly through various sections and enjoy interactive, user-friendly features.
+  ▶ 🔍 **About Us**: Learn about the café's story and vision.</br>
+  
+  ▶ 🖥️ **Navigate Pages**: Switch seamlessly between pages like Home, Menu, About, and Contact.
+
 </p>
 
-## 🛠️ Technologies and Tools I used:
-<p>
+## 🛠️ Technologies and Tools Used:
 
+<p align="left">
 <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  height="25px"/>
 <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="25px"/>
-<img alt="npm" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" height="25px"/>
-<img alt="Tailwidcss" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height="25px"/>
-<img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="25px"/>
-<img alt="Css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="25px"/>
-<img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" height="25px"/>
-<img alt="Brave browser" src="https://img.shields.io/badge/-Brave_Browser-FB542B?style=flat-square&logo=brave&logoColor=white" height="25px"/>
-<img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" height="25px"/>
-<img alt="Prettier" src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" height="25px"/>
 <img alt="vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" height="25px"/>
+<img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height="25px"/>
+<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="25px"/>
+<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="25px"/>
+<img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" height="25px"/>
+</p>
 
-                        
 <h2>🖋 License</h2>
 <p style="font-size: 1.1em;">
   This project is licensed under the <strong>MIT License</strong>. Feel free to use and contribute!
@@ -116,11 +112,12 @@ npm run dev
 
 <h2>🙌 Contribute</h2>
 <p style="font-size: 1.1em;">
-  We welcome contributions to enhance the Nanjappa Eye Hospital project! If you’d like to report a bug, suggest improvements, or contribute code, we’d love to hear from you.
+  We welcome contributions to enhance the **Fresh & More** project! If you’d like to report a bug, suggest improvements, or contribute code, I’d love to hear from you.
 </p>
 
-
-<p align="center" style="font-size: 1.2em;">Made with ❤️ by <strong>Amol</strong> at <strong>Nanjappa Eye Hospital</strong>.</p>
+<p align="center" style="font-size: 1.2em;">Made with ❤️ by <strong>Amol</strong> @ <strong>Fresh & More</strong>.</p>
 
 <h2>📧 Questions?</h2>
-<p align="center" style="font-size: 1.1em;">Feel free to reach out if you have any questions or need support! i'm here to help ❤️.</p>
+<p align="center" style="font-size: 1.1em;">
+Feel free to reach out if you have any questions or need support! I'm here to help ❤️.
+</p>
