@@ -7,9 +7,9 @@
 </div>
 
 
-<h1 align="center" style="font-size: 3em;">Nanjappa Eye Hospital 👁️💻</h1>
+<h1 align="center" style="font-size: 3em;">Fresh & More Café ☕🍽️</h1>
 <p align="center" style="font-size: 1.2em;">
-  Welcome to the official website of <strong>Nanjappa Eye Hospital</strong>! A comprehensive platform for patients and visitors to explore eye treatments, diseases, services, and doctors. Built with a focus on <strong>simplicity</strong>, <strong>accessibility</strong>, and <strong>responsiveness</strong>, ensuring a seamless experience across all devices.
+  Welcome to the official website of <strong>Fresh & More</strong>! A modern café landing page with an integrated digital menu. Featuring pages for <strong>Home</strong>, <strong>About</strong>, <strong>Menu</strong>, and <strong>Contact</strong>, designed with <strong>responsiveness</strong> and <strong>interactivity</strong> in mind for both mobile and desktop users.
 </p>
 
 <br/>
