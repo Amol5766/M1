@@ -32,25 +32,30 @@ function About() {
         <div className="timeline-container">
           <div className="timeline-item">
             <div className="timeline-line"></div> 
-            <span className="timeline-year">2020</span>
+            <span className="timeline-year">2021</span>
             <p className="timeline-description">Opened the first café with an emphasis on community and quality.</p>
           </div>
           <div className="timeline-item">
             <div className="timeline-line"></div> 
-            <span className="timeline-year">2021</span>
-            <p className="timeline-description">Expanded to include locally-sourced, hand-crafted desserts and pastries.</p>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-line"></div> 
             <span className="timeline-year">2022</span>
-            <p className="timeline-description">Introduced our seasonal menus, bringing fresh, local ingredients to every dish.</p>
+            <p className="timeline-description">Expanded to include locally-sourced, hand-crafted Sweet Pans.</p>
           </div>
           <div className="timeline-item">
             <div className="timeline-line"></div> 
             <span className="timeline-year">2023</span>
-            <p className="timeline-description">Opened new branches across several cities, all maintaining our unique café vibe.</p>
+            <p className="timeline-description">Introduced our seasonal menus, bringing fresh, local ingredients to every Juice/Dessert/Ice-Cream/Snack.</p>
           </div>
-        </div>
+          <div className="timeline-item">
+            <div className="timeline-line"></div> 
+            <span className="timeline-year">2024</span>
+            <p className="timeline-description">Opened new branches across Kodagu, all maintaining our unique café vibe.</p>
+          </div>
+          <div className="timeline-item">
+          <div className="timeline-line"></div> 
+            <span className="timeline-year">Ongoing</span>
+            <p className="timeline-description">We Hope on Opening More Branches With Fish Curry Rice.</p>
+          </div>
+          </div>
       </section>
 
       {/* Stylish Image Gallery Section */}
@@ -77,7 +82,7 @@ function About() {
 
       {/* Recommended Items Section */}
       <section ref={recommendedRef} className={`recommended-section ${recommendedInView ? 'fade-in' : ''}`}>
-        <h2 className="recommended-header">Recommended Item</h2>
+        <h2 className="recommended-header">Recommended </h2>
         <div className="recommended-container">
           <div className="recommended-item">
             <img src={recommendedImage1} alt="Recommended 1" className="recommended-img" />
