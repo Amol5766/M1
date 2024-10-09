@@ -81,7 +81,7 @@ function About() {
         <div className="recommended-container">
           <div className="recommended-item">
             <img src={recommendedImage1} alt="Recommended 1" className="recommended-img" />
-            <p className="recommended-description">Try our signature hand-crafted GudBud IceCream with fresh local ingredients.</p>
+            <p className="recommended-description">Try our signature hand-crafted Special GudBud IceCream with fresh local ingredients.</p>
           </div>
         </div>
       </section>
