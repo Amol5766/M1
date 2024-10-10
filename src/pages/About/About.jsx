@@ -1,24 +1,18 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
-import avatarImage from '../../assets/safwan.jpg'; 
-import cafeImage1 from '../../assets/fm1.jpg'; 
-import cafeImage2 from '../../assets/fm4.jpg'; 
-import cafeImage3 from '../../assets/fm3.jpg'; 
-import cafeImage4 from '../../assets/fm7.jpg'; 
-import cafeImage5 from '../../assets/fm2.jpg'; 
-import recommendedImage1 from '../../assets/fm5.jpg'; 
+import avatarImage from '../../assets/safwan.jpg';
+import cafeImage1 from '../../assets/fm1.jpg';
+import cafeImage2 from '../../assets/fm4.jpg';
+import cafeImage3 from '../../assets/fm3.jpg';
+import cafeImage4 from '../../assets/fm7.jpg';
+import cafeImage5 from '../../assets/fm2.jpg';
+import recommendedImage1 from '../../assets/fm5.jpg';
 import './About.css';
 
 function About() {
-  const { ref: avatarRef, inView: avatarInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: timelineRef, inView: timelineInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: galleryRef, inView: galleryInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: recommendedRef, inView: recommendedInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
   return (
     <div className="about-container">
       {/* Avatar Section */}
-      <section ref={avatarRef} className={`avatar-section ${avatarInView ? 'fade-in' : ''}`}>
+      <section className="avatar-section fade-in">
         <img src={avatarImage} alt="Avatar" className="avatar-img" />
         <h1 className="avatar-header">Welcome to Fresh and More Café</h1>
         <p className="avatar-description">
@@ -27,39 +21,39 @@ function About() {
       </section>
 
       {/* Timeline Section */}
-      <section ref={timelineRef} className={`timeline-section ${timelineInView ? 'slide-up' : ''} ${timelineInView ? 'fade-in' : ''}`}>
+      <section className="timeline-section slide-up fade-in">
         <h2 className="timeline-header">Our Journey</h2>
         <div className="timeline-container">
           <div className="timeline-item">
-            <div className="timeline-line"></div> 
+            <div className="timeline-line"></div>
             <span className="timeline-year">2021</span>
             <p className="timeline-description">Opened the first café with an emphasis on community and quality.</p>
           </div>
           <div className="timeline-item">
-            <div className="timeline-line"></div> 
+            <div className="timeline-line"></div>
             <span className="timeline-year">2022</span>
             <p className="timeline-description">Expanded to include locally-sourced, hand-crafted Sweet Pans.</p>
           </div>
           <div className="timeline-item">
-            <div className="timeline-line"></div> 
+            <div className="timeline-line"></div>
             <span className="timeline-year">2023</span>
             <p className="timeline-description">Introduced our seasonal menus, bringing fresh, local ingredients to every Juice/Dessert/Ice-Cream/Snack.</p>
           </div>
           <div className="timeline-item">
-            <div className="timeline-line"></div> 
+            <div className="timeline-line"></div>
             <span className="timeline-year">2024</span>
             <p className="timeline-description">Opened new branches across Kodagu, all maintaining our unique café vibe.</p>
           </div>
           <div className="timeline-item">
-          <div className="timeline-line"></div> 
+            <div className="timeline-line"></div>
             <span className="timeline-year">Ongoing</span>
             <p className="timeline-description">We Hope on Opening More Branches With Fish Curry Rice.</p>
           </div>
-          </div>
+        </div>
       </section>
 
       {/* Stylish Image Gallery Section */}
-      <section ref={galleryRef} className={`gallery-section ${galleryInView ? 'fade-in' : ''}`}>
+      <section className="gallery-section fade-in">
         <h2 className="gallery-header">Our Café</h2>
         <div className="gallery-container">
           <div className="gallery-item">
@@ -81,7 +75,7 @@ function About() {
       </section>
 
       {/* Recommended Items Section */}
-      <section ref={recommendedRef} className={`recommended-section ${recommendedInView ? 'fade-in' : ''}`}>
+      <section className="recommended-section fade-in">
         <h2 className="recommended-header">Recommended </h2>
         <div className="recommended-container">
           <div className="recommended-item">
