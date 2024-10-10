@@ -1,9 +1,10 @@
 // vite.config.js
-import react from 'react';
+import React from 'react';
+
 export default {
 build: {
 rollupOptions: {
-external: [react,'react-intersection-observer']
+external: [React,'react-intersection-observer']
   }
  }
 };
