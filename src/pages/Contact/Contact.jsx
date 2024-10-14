@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'; // Import icons
 import ModelWrapper from '../../components/Model/Model';
 
