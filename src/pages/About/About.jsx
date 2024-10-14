@@ -9,15 +9,10 @@ import recommendedImage1 from '../../assets/fm5.jpg';
 import './About.css';
 
 function About() {
-  const { ref: avatarRef, inView: avatarInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: timelineRef, inView: timelineInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: galleryRef, inView: galleryInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const { ref: recommendedRef, inView: recommendedInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
   return (
     <div className="about-container">
       {/* Avatar Section */}
-      <section ref={avatarRef} className={`avatar-section ${avatarInView ? 'fade-in' : ''}`}>
+      <section className="avatar-section">
         <img src={avatarImage} alt="Avatar" className="avatar-img" />
         <h1 className="avatar-header">Welcome to Fresh and More Café</h1>
         <p className="avatar-description">
@@ -26,7 +21,7 @@ function About() {
       </section>
 
       {/* Timeline Section */}
-      <section ref={timelineRef} className={`timeline-section ${timelineInView ? 'slide-up' : ''} ${timelineInView ? 'fade-in' : ''}`}>
+      <section className="timeline-section">
         <h2 className="timeline-header">Our Journey</h2>
         <div className="timeline-container">
           <div className="timeline-item">
@@ -54,11 +49,11 @@ function About() {
             <span className="timeline-year">Ongoing</span>
             <p className="timeline-description">We Hope on Opening More Branches With Fish Curry Rice.</p>
           </div>
-          </div>
+        </div>
       </section>
 
       {/* Stylish Image Gallery Section */}
-      <section ref={galleryRef} className={`gallery-section ${galleryInView ? 'fade-in' : ''}`}>
+      <section className="gallery-section">
         <h2 className="gallery-header">Our Café</h2>
         <div className="gallery-container">
           <div className="gallery-item">
@@ -80,8 +75,8 @@ function About() {
       </section>
 
       {/* Recommended Items Section */}
-      <section ref={recommendedRef} className={`recommended-section ${recommendedInView ? 'fade-in' : ''}`}>
-        <h2 className="recommended-header">Recommended </h2>
+      <section className="recommended-section">
+        <h2 className="recommended-header">Recommended</h2>
         <div className="recommended-container">
           <div className="recommended-item">
             <img src={recommendedImage1} alt="Recommended 1" className="recommended-img" />
