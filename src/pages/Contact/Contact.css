@@ -92,7 +92,7 @@
     transform: scale(1.03);
   }
   
-  h2 {
+  .H2 {
     font-size: 24px;
     color: #ff00ff;
     margin-bottom: 20px;
