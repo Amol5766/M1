@@ -38,7 +38,7 @@ function Contact() {
 
       {/* Contact Form Section */}
       <div className="contact-form">
-        <h2>Contact Us</h2>
+       <h2 className="H2">Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-group">
             <input
