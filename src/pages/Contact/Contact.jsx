@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'; // Import icons
 import ModelWrapper from '../../components/Model/Model';
 
 function Contact() {
@@ -27,9 +26,9 @@ function Contact() {
       {/* Contact Information Section */}
       <div className="contact-info">
         <h2>Connect With Us</h2>
-        <p><FontAwesomeIcon icon={faPhoneAlt} /> +91 8088038393</p>
-        <p><FontAwesomeIcon icon={faEnvelope} /> freshandmore@gmail.com</p>
-        <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Fish Curry Rice, Kushalnagar, Karnataka 571234</p>
+        <p>Phone: +91 8088038393</p>
+        <p>Email: freshandmore@gmail.com</p>
+        <p>Address: Fish Curry Rice, Kushalnagar, Karnataka 571234</p>
       </div>
 
       {/* 3D Model Section */}
