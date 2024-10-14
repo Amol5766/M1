@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Switched to HashRouter
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader';
@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router> {/* Using HashRouter instead of BrowserRouter */}
       {loading ? (
         <Loader />  
       ) : (
