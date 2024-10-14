@@ -1,5 +1,4 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
 import avatarImage from '../../assets/safwan.jpg'; 
 import cafeImage1 from '../../assets/fm1.jpg'; 
 import cafeImage2 from '../../assets/fm4.jpg'; 
