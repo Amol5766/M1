@@ -22,7 +22,7 @@ const Model = () => {
     }
   });
 
-  return <primitive ref={modelRef} object={scene} scale={1.8} position={[0, -4, 2]} />;
+  return <primitive ref={modelRef} object={scene} scale={1.8}  />;
 };
 
 const AnimatedText = () => {
@@ -36,33 +36,36 @@ const AnimatedText = () => {
     }
   });
 
-   return (
+    return (
     <Text
       ref={textRef}
-      position={[0, 2, 0]} // Position above the model
-      fontSize={1} // Adjust size as needed
-      color="#FF5733" // Set the color of the text
+      position={[0, 1, 0]} // Position the text above the model
+      fontSize={0.8}
+      color="red"
+      anchorX="center"
+      anchorY="middle"
     >
-      Bite Me!!
+AMOL❤️‍🔥
     </Text>
   );
 };
 
 const ModelWrapper = () => {
-  return (
-    <Canvas>
-      <ambientLight intensity={2.5} />
-      <pointLight position={[10, 10, 10]} />
-
-      {/* Render your loaded model */}
-      <Suspense fallback={<Html><div>Loading model...</div></Html>}>
-        <Model />
-        <AnimatedText /> {/* 3D animated text */}
-      </Suspense>
-
-      <OrbitControls />
-    </Canvas>
-  );
-};
-
+    return (
+      <Canvas> {/* Adjusted camera position and FOV */}
+        <ambientLight intensity={3.8} />
+        <directionalLight intensity={10} position={[0, 0, 5]} />
+        <pointLight intensity={1} position={[-10, -10, -10]} />
+  
+        {/* Render your loaded model */}
+        <Suspense fallback={<Html><div>Loading model...</div></Html>}>
+          <Model />
+          <AnimatedText /> {/* 3D animated text */}
+        </Suspense>
+  
+        <OrbitControls  />
+      </Canvas>
+    );
+  };
+  
 export default ModelWrapper;
