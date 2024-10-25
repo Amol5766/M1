@@ -53,9 +53,9 @@ AMOL❤️‍🔥
 const ModelWrapper = () => {
     return (
       <Canvas> {/* Adjusted camera position and FOV */}
-        <ambientLight intensity={3.8} />
-        <directionalLight intensity={10} position={[0, 0, 5]} />
-        <pointLight intensity={1} position={[-10, -10, -10]} />
+        <ambientLight intensity={3.5} />
+        <directionalLight intensity={4} position={[0, 0, 5]} />
+        <pointLight  position={[10, 10, 10]} />
   
         {/* Render your loaded model */}
         <Suspense fallback={<Html><div>Loading model...</div></Html>}>
