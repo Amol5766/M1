@@ -6,6 +6,7 @@ const Model = () => {
   // Load your GLTF model from the public folder
   const { scene } = useGLTF('/untitled.glb'); // Adjust the path to your model
   const modelRef = useRef();
+  const { actions } = useAnimations(animations, modelRef);
 
   // Activate the model's animation
   React.useEffect(() => {
@@ -17,7 +18,7 @@ const Model = () => {
   // Rotate the model continuously
   useFrame(() => {
     if (modelRef.current) {
-      modelRef.current.rotation.y += 0.01; // Rotate the model around the Y-axis
+      modelRef.current.rotation.y += 0.006; // Rotate the model around the Y-axis
     }
   });
 
