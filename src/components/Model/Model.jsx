@@ -7,10 +7,17 @@ const Model = () => {
   const { scene } = useGLTF('/untitled.glb'); // Adjust the path to your model
   const modelRef = useRef();
 
+  // Activate the model's animation
+  React.useEffect(() => {
+    if (actions) {
+      actions[Object.keys(actions)[0]].play(); // Play the first available animation
+    }
+  }, [actions]);
+
   // Rotate the model continuously
   useFrame(() => {
     if (modelRef.current) {
-      modelRef.current.rotation.y += 0.01; // Rotate the model around the Y-axis
+      modelRef.current.rotation.y += 0.006; // Rotate the model around the Y-axis
     }
   });
 
