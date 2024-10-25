@@ -17,7 +17,7 @@ const Model = () => {
   // Rotate the model continuously
   useFrame(() => {
     if (modelRef.current) {
-      modelRef.current.rotation.y += 0.006; // Rotate the model around the Y-axis
+      modelRef.current.rotation.y += 0.01; // Rotate the model around the Y-axis
     }
   });
 
