@@ -4,7 +4,7 @@ import { OrbitControls, useGLTF, useAnimations, Text, Html } from '@react-three/
 
 const Model = () => {
   // Load your GLTF model from the public folder
-  const { scene, animations } = useGLTF('/untitled.gltf'); // Adjust the path to your model
+  const { scene, animations } = useGLTF('/untitled.glb'); // Adjust the path to your model
   const modelRef = useRef();
   const { actions } = useAnimations(animations, modelRef);
 
