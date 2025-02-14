@@ -1,0 +1,141 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full Page Layout */
+.sqlplus-container {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Heading */
+.sqlplus {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff007f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
+}
+
+/* Navbar Full Width */
+.sqlplus-header {
+  width: 100%;
+  position: relative;
+}
+
+/* Navbar */
+.sqlplus-nav {
+  width: 100%;
+  background: linear-gradient(90deg, #ff00ff, #00ffff, #ff007f);
+  color: white;
+  font-size: 22px;
+  border-radius: 4vh;
+  padding: 15px 0;
+  margin-bottom: 4vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.sqlplus-nav:hover {
+  box-shadow: 0px 0px 30px rgba(255, 0, 255, 0.8);
+}
+
+/* Main Content */
+.sqlplus-main {
+  flex: 1;
+  padding-bottom: 60px;
+}
+
+/* Main Heading */
+.sqlplus-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff007f);
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 20px rgba(255, 0, 255, 0.8);
+}
+
+/* Paragraph */
+.sqlplus-description {
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+/* Table Styling */
+.sqlplus-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 0vh;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Table Header */
+.sqlplus-table th {
+  background: linear-gradient(45deg, #ff007f, #00ffee);
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Table Rows */
+.sqlplus-table td {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Alternate Row Coloring */
+.sqlplus-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Footer */
+.sqlplus-footer {
+  width: 100%;
+  background: #0f3460;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
