@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // ✅ Use HashRouter
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader';
@@ -14,18 +14,16 @@ import './App.css';
 function App() {
   const [loading, setLoading] = useState(true);
 
-  // Simulate a loading time of 3 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000);
 
-    // Clear the timer when the component unmounts
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <Router>
+    <Router> {/* ✅ Use HashRouter */}
       {loading ? (
         <Loader />
       ) : (
@@ -39,7 +37,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/terms-of-service" element={<TermsOfService />} />
-              <Route path="/sqlplus" element={<SqlPlus />} />
+              <Route path="/sqlplus" element={<SqlPlus />} /> {/* ✅ Works with HashRouter */}
             </Routes>
           </main>
           <Footer />
