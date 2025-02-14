@@ -145,7 +145,6 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
-                    <li>
         </ul>
 
         {/* Theme toggle and Share buttons */}
