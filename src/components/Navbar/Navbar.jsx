@@ -138,11 +138,20 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/sqlplus"
+              to="/contact"
               className={({ isActive }) => (isActive ? 'active-link' : '')}
               onClick={toggleDropdown}
             >
               Contact
+            </NavLink>
+          </li>
+                    <li>
+            <NavLink
+              to="/sqlplus"
+              className={({ isActive }) => (isActive ? 'active-link' : '')}
+              onClick={toggleDropdown}
+            >
+              
             </NavLink>
           </li>
         </ul>
