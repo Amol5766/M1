@@ -146,14 +146,6 @@ function Navbar() {
             </NavLink>
           </li>
                     <li>
-            <NavLink
-              to="/sqlplus"
-              className={({ isActive }) => (isActive ? 'active-link' : '')}
-              onClick={toggleDropdown}
-            >
-             . 
-            </NavLink>
-          </li>
         </ul>
 
         {/* Theme toggle and Share buttons */}
