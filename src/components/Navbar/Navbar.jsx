@@ -151,7 +151,7 @@ function Navbar() {
               className={({ isActive }) => (isActive ? 'active-link' : '')}
               onClick={toggleDropdown}
             >
-              
+             . 
             </NavLink>
           </li>
         </ul>
