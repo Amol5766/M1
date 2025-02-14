@@ -138,7 +138,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/contact"
+              to="/sqlplus"
               className={({ isActive }) => (isActive ? 'active-link' : '')}
               onClick={toggleDropdown}
             >
