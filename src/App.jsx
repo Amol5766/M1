@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Switched to HashRouter
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader';
@@ -8,6 +8,7 @@ import Menu from './pages/Menu/Menu';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import TermsOfService from './pages/TermsOfService/TermsOfService';
+import SqlPlus from './pages/SqlPlus/SqlPlus';
 import './App.css';
 
 function App() {
@@ -24,12 +25,12 @@ function App() {
   }, []);
 
   return (
-    <Router> {/* Using HashRouter instead of BrowserRouter */}
+    <Router>
       {loading ? (
-        <Loader />  
+        <Loader />
       ) : (
         <div className="app-content">
-          <Navbar /> 
+          <Navbar />
           <main>
             <Routes>
               <Route path="/" element={<Menu />} />
@@ -38,9 +39,10 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/terms-of-service" element={<TermsOfService />} />
+              <Route path="/sqlplus" element={<SqlPlus />} />
             </Routes>
           </main>
-          <Footer /> 
+          <Footer />
         </div>
       )}
     </Router>
