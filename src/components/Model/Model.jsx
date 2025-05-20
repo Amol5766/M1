@@ -63,7 +63,7 @@ const ModelWrapper = () => {
           <AnimatedText /> {/* 3D animated text */}
         </Suspense>
   
-        <OrbitControls  />
+       <OrbitControls enablePan={true} enableZoom={false} />
       </Canvas>
     );
   };
