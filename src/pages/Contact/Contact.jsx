@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+} from '@fortawesome/free-solid-svg-icons'; // Import icons
 import ModelWrapper from '../../components/Model/Model';
 
 function Contact() {
@@ -16,9 +22,26 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert('Message submitted!');
+    try {
+      const response = await fetch(
+        'https://m1-backend.onrender.com',
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      const data = await response.json();
+      console.log(data);
+      alert('Message submitted!');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Submission failed!');
+    }
   };
 
   return (
@@ -26,9 +49,16 @@ function Contact() {
       {/* Contact Information Section */}
       <div className="contact-info">
         <h2>Connect With Us</h2>
-        <p>Phone: +91 8088038393</p>
-        <p>Email: freshandmore@gmail.com</p>
-        <p>Address: Fish Curry Rice, Kushalnagar, Karnataka 571234</p>
+        <p>
+          <FontAwesomeIcon icon={faPhoneAlt} /> +91 8088038393
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faEnvelope} /> freshandmore@gmail.com
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faMapMarkerAlt} /> Fish Curry Rice,
+          Kushalnagar, Karnataka 571234
+        </p>
       </div>
 
       {/* 3D Model Section */}
@@ -38,7 +68,7 @@ function Contact() {
 
       {/* Contact Form Section */}
       <div className="contact-form">
-       <h2 className="H2">Contact Us</h2>
+        <h2 className="H2">Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-group">
             <input
@@ -69,7 +99,9 @@ function Contact() {
               required
             />
           </div>
-          <button type="submit" className="submit-btn">Send Message</button>
+          <button type="submit" className="submit-btn">
+            Send Message
+          </button>
         </form>
       </div>
 
